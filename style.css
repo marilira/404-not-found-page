@@ -1,0 +1,95 @@
+/* Global --------------------- */
+* {
+    padding: 0;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+}
+
+.container {
+    margin: 40px 119px 39px 77px;
+}
+
+/* Header --------------------- */
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+img {
+    align-items: center;
+
+    width: 539.22px;
+    height: 447.43px;
+}
+
+/* Main --------------------- */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+}
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+
+    color: #333333;
+
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    margin: 0;
+}
+
+.content {
+    font-weight: normal;
+    font-size: 24px;
+
+    color: #4F4F4F;
+
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+button {
+    padding: 24px 43px 23px;
+    border: none;
+
+    background: #333333;
+    color: white;
+
+    font-family: Space Mono;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* Footer --------------------- */
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #333333;
+
+    margin: 0;
+}
